@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Python Docs Vector Search</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Python Docs Vector Search</h1>
+        <form id="queryForm">
+            <input type="text" id="queryInput" placeholder="Enter your question..." required>
+            <button type="submit">Search</button>
+        </form>
+        <div id="results">
+            <h2>Results</h2>
+            <div id="loader" style="display:none;text-align:center;margin:16px 0;">
+                <div class="spinner"></div>
+                <div>Loading...</div>
+            </div>
+            <div id="chromaResults"></div>
+            <div id="faissResults"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
