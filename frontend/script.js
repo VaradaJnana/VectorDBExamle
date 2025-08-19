@@ -1,5 +1,5 @@
 // Use relative path for API endpoint to support deployment on Render or similar platforms
-const backendUrl = "/query";
+const backendUrl = "http://localhost:10000/query";
 
 document.getElementById('queryForm').addEventListener('submit', async function(e) {
     e.preventDefault();
