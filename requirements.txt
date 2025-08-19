@@ -1,0 +1,8 @@
+faiss-cpu
+chromadb
+sentence-transformers
+numpy
+flask
+flask-cors
+requests
+beautifulsoup4
